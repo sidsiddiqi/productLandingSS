@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #FCF0CC;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+  }
+
+  nav {
+    background-color: #A64253;
+    width: 100%;
+    position: relative;
+    top: 0px;
+  }
+  
+  .nav-item {
+    color: white;
+  }
+
+  .nav-link {
+    display: flex;
+  }
+  
+  nav a {
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+  .btn-outline-success {
+    color: white;
+  }
+   
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #products {
+    display: flex;
+    margin-top: 80px;  
+  }
+  
+.column{
+    flex: 50%;
+  }
+  #products img {
+    width: 80%;
+    height: 400px;
+    border-radius: 50%;
+    margin-left: 80px;
+  }
+
+  #products .column p {
+    font-size: 1.5rem;
+    margin-top: 40px;
+    text-align: justify;
+    color: brown;
+
+  }
+  #laptop {
+    display: flex;
+    justify-content: space between;
+  }
+  
+  #laptop .column {
+     display: flex;
+    justify-content: space between;
+    flex: 50%;
+  }
+  
+  #laptop .card {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 150px;
+    display: flex;
+    background-color: gray;
+    border: 2px solid black;
+  }
+
+  .card img {
+    height: 400px;
+  }
+
+  #phones {
+    display: flex;
+    justify-content: space between;
+  }
+
+  #phones .column {
+    display: flex;
+    justify-content: space between;
+    flex: 50%;
+  }
+  
+  #phones .card {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 150px;
+    display: flex;
+    background-color: gray;
+    border: 2px solid black;
+  }
+
+  .card img {
+    height: 400px;
+  }
+  
+  #headphones {
+    display: flex;
+    justify-content: space between;
+  }
+
+  #headphones .column {
+    display: flex;
+    justify-content: space between;
+    flex: 50%;
+  }
+  
+  
+  #headphones .card {
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 150px;
+    display: flex;
+    background-color: gray;
+    border: 2px solid black;
+  }
+
+  .card img {
+    height: 400px;
+  }
+
+  #videowrapper iframe {
+  margin-left: 30%;
+  }
+  
+  #contact {
+    margin-top: 80px;
+    margin-left: 40%;
+  }
+
+  #email {
+    padding: 10px 12px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px;
+  }
+
+  #submit {
+    padding: 10px 12px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px;
+    margin-left: 10%;
+  }
+  
+  #features .card-header {
+    font-size: 2rem;
+    color: brown;
+  }
